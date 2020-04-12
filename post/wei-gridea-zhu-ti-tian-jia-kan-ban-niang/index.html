@@ -38,7 +38,7 @@
 
 </head>
 <body>
-<div id="fh5co-offcanvas">
+    <div id="fh5co-offcanvas">
     <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
         <span><i class="icon-cross3"></i> <span>Close</span></span>
     </a>
@@ -150,76 +150,141 @@
 </header>
 
 
-<div class="container-fluid">
-    <div class="row fh5co-post-entry single-entry">
-        <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0 animate-box">
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
 
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-2 col-sm-10 col-sm-offset-2 col-xs-12 col-xs-offset-0 text-center content-article">
+    <!-- 等gridea出自定义页面功能再优化一下 -->
+    
+        <div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                
+                    <img src="https://gitee.com/wildcatuuu/Blog-Gallery/raw/master/img/live2D cover.png" alt="为Gridea主题添加看板娘" class="img-responsive">
+                
+            </figure>
+            <span class="fh5co-meta animate-box">
+                
+                    <div class="tag-container">
+                        
+                            <a href="https://wildcatuuu.github.io/tag/PdnTE0AzC/" class="tag">转载, </a>
+                        
+                            <a href="https://wildcatuuu.github.io/tag/3Jwzcp4ts/" class="tag">Gridea, </a>
+                        
+                    </div>
+                
+            </span>
+            <h2 class="fh5co-article-title animate-box">为Gridea主题添加看板娘</h2>
+            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
+                <li>2020-04-06</li>
+                <li>321字</li>
+                <li>2 min read</li>
+            </ol>
+
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="col-md-12 animate-box post-content">
+                        <p> <p>Add Live2D for Gridea theme</p>
+<h2 id="概要">概要</h2>
+<p>看到别人的网站有看板娘，但是Gridea并没有特别完整的解决方案，便在Github上寻找相关的代码，看到项目：<a href="https://github.com/stevenjoezhang/live2d-widget">live2d-widget</a>，便稍作修改，就实现将看板娘本地化到主题中，需要改动的地方很少。<br>
+效果预览：<a href="https://wherelse.cc">wherelse.cc</a></p>
+<h2 id="操作方法">操作方法</h2>
+<ol>
+<li>从我的github上下载或clone repo，地址：<a href="https://github.com/wherelse/Live2D-for-Gridea">Live2D For Gridea</a></li>
+</ol>
+<ol start="2">
+<li>
+<p>将文件以文件夹形式放入到\主题\assets\media下</p>
+<p><img src="https://gitee.com/wildcatuuu/Blog-Gallery/raw/master/img/1583685033340.png" alt="" loading="lazy"><br>
+文件夹的内容应有一下几项：<img src="https://gitee.com/wildcatuuu/Blog-Gallery/raw/master/img/1583685129035.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>将下面的代码加入 <code>index.ejs</code>的<code>&lt;head&gt;</code>或 <code>&lt;body&gt;</code>之间保存。</p>
+</li>
+</ol>
+<pre><code class="language-html">&lt;script src=&quot;./media/live2d/autoload.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>在Gridea中预览添加完成后的效果。</p>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/wildcatuuu/Blog-Gallery/raw/master/img/1583685534617.png" alt="" loading="lazy"></figure>
+<h2 id="在主题中添加开启按钮可选">在主题中添加开启按钮（可选）</h2>
+<p>在config.json最后添加：</p>
+<pre><code class="language-json">{
+    &quot;name&quot;: &quot;Live2D&quot;,
+    &quot;label&quot;: &quot;Live2D看板娘&quot;,
+    &quot;group&quot;: &quot;Live2D&quot;,
+    &quot;value&quot;: true,
+    &quot;type&quot;: &quot;switch&quot;,
+    &quot;note&quot;: &quot;若不需要，可关闭以加快页面加载速度&quot;
+}
+</code></pre>
+<p><code>&lt;head&gt;</code>或 <code>&lt;body&gt;</code>间的代码更改为：</p>
+<pre><code class="language-html">&lt;% if (site.customConfig.Live2D){ %&gt;
+    &lt;script src=&quot;./media/live2d/autoload.js&quot;&gt;&lt;/script&gt;
+&lt;% } %&gt;
+</code></pre>
+<h2 id="live2d自定义">Live2D自定义</h2>
+<p>在<code>waifu-tips.json</code>和<code>waifu-tips.js</code>中可以自定义看板娘的文字内容，按需更改。</p>
+<p>本文转载于<a href="https://wherelse.cc/post/add-live2d-in-the-gridea-theme/">wherelse Blog</a></p>
+ </p>
+                    </div>
+                </div>
 
                 <div class="row">
-
-                    
-                    <h2 class="text-center archives-title">
-                        <i class="fa fa-archive"></i> 文章归档
-                    </h2>
-
-                    
-                    <div class="row post-group">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-offset-0 text-center post-year tag-title">
-                            <h3>2020</h3>
-                        </div>
-
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-offset-0 text-left">
-                            <ul class="post-list">
-                            
-                                
-                                <li class="post-item">
-                                    <a href="https://wildcatuuu.github.io/post/wei-gridea-zhu-ti-tian-jia-kan-ban-niang/" target="_blank">
-                                        <span class="post-title">为Gridea主题添加看板娘</span>
-                                        <span class="post-day">2020-04-06</span>
-                                    </a>
-                                </li>
-                                
-                            
-                                
-                                <li class="post-item">
-                                    <a href="https://wildcatuuu.github.io/post/zi-yuan-dao-hang/" target="_blank">
-                                        <span class="post-title">资源导航</span>
-                                        <span class="post-day">2020-04-03</span>
-                                    </a>
-                                </li>
-                                
-                            
-                                
-                                <li class="post-item">
-                                    <a href="https://wildcatuuu.github.io/post/no-scripts-no-cue-cards-it-isnt-always-shakespeare-but-its-genuine-its-a-life/" target="_blank">
-                                        <span class="post-title">个人简历</span>
-                                        <span class="post-day">2020-03-30</span>
-                                    </a>
-                                </li>
-                                
-                            
-                                
-                                <li class="post-item">
-                                    <a href="https://wildcatuuu.github.io/post/hello-gridea/" target="_blank">
-                                        <span class="post-title">Hello Gridea</span>
-                                        <span class="post-day">2020-01-01</span>
-                                    </a>
-                                </li>
-                                
-                            
-                            </ul>
-                        </div>
+                    <div class="col-md-12 animate-box">
+                        
+                            <div class="next-post">
+                                <div class="next">下一篇</div>
+                                <a href="https://wildcatuuu.github.io/post/zi-yuan-dao-hang/">
+                                    <h3 class="post-title">
+                                        资源导航
+                                    </h3>
+                                </a>
+                            </div>
+                        
                     </div>
-                    
-
                 </div>
-            </div>
-        </div>
+
+                <div class="row">
+    <div class="col-md-12 animate-box">
+        
     </div>
 </div>
 
+            </div>
 
+        </article>
+    </div>
+</div>
+
+    
+
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
+    
+        <a href="#!" id="tool-toc" class="hidden-xs hidden-sm">
+            <i class="fa fa-map"></i>
+        </a>
+        <br>
+    
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
+
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E6%A6%82%E8%A6%81">概要</a></li>
+<li><a href="#%E6%93%8D%E4%BD%9C%E6%96%B9%E6%B3%95">操作方法</a></li>
+<li><a href="#%E5%9C%A8%E4%B8%BB%E9%A2%98%E4%B8%AD%E6%B7%BB%E5%8A%A0%E5%BC%80%E5%90%AF%E6%8C%89%E9%92%AE%E5%8F%AF%E9%80%89">在主题中添加开启按钮（可选）</a></li>
+<li><a href="#live2d%E8%87%AA%E5%AE%9A%E4%B9%89">Live2D自定义</a></li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+
+    
 <footer id="fh5co-footer">
   <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
 </footer>
@@ -227,7 +292,7 @@
 <script src="https://wildcatuuu.github.io/media/js/jquery.min.js"></script>
 
 
-<!-- jQuery -->
+    <!-- jQuery -->
 <script src="https://wildcatuuu.github.io/media/scripts/jquery.min.js"></script>
 <!-- img lazy load -->
 <script src="https://wildcatuuu.github.io/media/scripts/jquery.lazyload.min.js"></script>

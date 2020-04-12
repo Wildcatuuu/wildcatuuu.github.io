@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wildcatuuu.github.io</id>
     <title>Gridea</title>
-    <updated>2020-04-11T17:20:19.035Z</updated>
+    <updated>2020-04-12T00:31:32.195Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wildcatuuu.github.io"/>
     <link rel="self" href="https://wildcatuuu.github.io/atom.xml"/>
@@ -11,18 +11,81 @@
     <icon>https://wildcatuuu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
+        <title type="html"><![CDATA[为Gridea主题添加看板娘]]></title>
+        <id>https://wildcatuuu.github.io/post/wei-gridea-zhu-ti-tian-jia-kan-ban-niang/</id>
+        <link href="https://wildcatuuu.github.io/post/wei-gridea-zhu-ti-tian-jia-kan-ban-niang/">
+        </link>
+        <updated>2020-04-06T04:47:20.000Z</updated>
+        <content type="html"><![CDATA[<p>Add Live2D for Gridea theme</p>
+<h2 id="概要">概要</h2>
+<p>看到别人的网站有看板娘，但是Gridea并没有特别完整的解决方案，便在Github上寻找相关的代码，看到项目：<a href="https://github.com/stevenjoezhang/live2d-widget">live2d-widget</a>，便稍作修改，就实现将看板娘本地化到主题中，需要改动的地方很少。<br>
+效果预览：<a href="https://wherelse.cc">wherelse.cc</a></p>
+<h2 id="操作方法">操作方法</h2>
+<ol>
+<li>从我的github上下载或clone repo，地址：<a href="https://github.com/wherelse/Live2D-for-Gridea">Live2D For Gridea</a></li>
+</ol>
+<ol start="2">
+<li>
+<p>将文件以文件夹形式放入到\主题\assets\media下</p>
+<p><img src="https://gitee.com/wildcatuuu/Blog-Gallery/raw/master/img/1583685033340.png" alt="" loading="lazy"><br>
+文件夹的内容应有一下几项：<img src="https://gitee.com/wildcatuuu/Blog-Gallery/raw/master/img/1583685129035.png" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>将下面的代码加入 <code>index.ejs</code>的<code>&lt;head&gt;</code>或 <code>&lt;body&gt;</code>之间保存。</p>
+</li>
+</ol>
+<pre><code class="language-html">&lt;script src=&quot;./media/live2d/autoload.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>在Gridea中预览添加完成后的效果。</p>
+<figure data-type="image" tabindex="1"><img src="https://gitee.com/wildcatuuu/Blog-Gallery/raw/master/img/1583685534617.png" alt="" loading="lazy"></figure>
+<h2 id="在主题中添加开启按钮可选">在主题中添加开启按钮（可选）</h2>
+<p>在config.json最后添加：</p>
+<pre><code class="language-json">{
+    &quot;name&quot;: &quot;Live2D&quot;,
+    &quot;label&quot;: &quot;Live2D看板娘&quot;,
+    &quot;group&quot;: &quot;Live2D&quot;,
+    &quot;value&quot;: true,
+    &quot;type&quot;: &quot;switch&quot;,
+    &quot;note&quot;: &quot;若不需要，可关闭以加快页面加载速度&quot;
+}
+</code></pre>
+<p><code>&lt;head&gt;</code>或 <code>&lt;body&gt;</code>间的代码更改为：</p>
+<pre><code class="language-html">&lt;% if (site.customConfig.Live2D){ %&gt;
+    &lt;script src=&quot;./media/live2d/autoload.js&quot;&gt;&lt;/script&gt;
+&lt;% } %&gt;
+</code></pre>
+<h2 id="live2d自定义">Live2D自定义</h2>
+<p>在<code>waifu-tips.json</code>和<code>waifu-tips.js</code>中可以自定义看板娘的文字内容，按需更改。</p>
+<p>本文转载于<a href="https://wherelse.cc/post/add-live2d-in-the-gridea-theme/">wherelse Blog</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[资源导航]]></title>
+        <id>https://wildcatuuu.github.io/post/zi-yuan-dao-hang/</id>
+        <link href="https://wildcatuuu.github.io/post/zi-yuan-dao-hang/">
+        </link>
+        <updated>2020-04-02T16:53:10.000Z</updated>
+        <content type="html"><![CDATA[<p><a href="https://www.lanzous.com/b00tcw1za">软件</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[个人简历]]></title>
+        <id>https://wildcatuuu.github.io/post/no-scripts-no-cue-cards-it-isnt-always-shakespeare-but-its-genuine-its-a-life/</id>
+        <link href="https://wildcatuuu.github.io/post/no-scripts-no-cue-cards-it-isnt-always-shakespeare-but-its-genuine-its-a-life/">
+        </link>
+        <updated>2020-03-30T15:54:40.000Z</updated>
+        <content type="html"><![CDATA[<img src="https://gitee.com/wildcatuuu/Blog-Gallery/raw/master/img/resume content.png"/>
+]]></content>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://wildcatuuu.github.io/post/hello-gridea/</id>
         <link href="https://wildcatuuu.github.io/post/hello-gridea/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
-✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-]]></summary>
+        <updated>2019-12-31T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
 ✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
+<p><a href="https://wildcatuuu.github.io/">Github</a><br>
 <a href="https://gridea.dev/">Gridea 主页</a><br>
 <a href="http://fehey.com/">示例网站</a></p>
 <h2 id="特性">特性👇</h2>
