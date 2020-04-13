@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wildcatuuu.github.io</id>
     <title>Wildcatuuu</title>
-    <updated>2020-04-13T14:07:15.647Z</updated>
+    <updated>2020-04-13T14:28:05.734Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wildcatuuu.github.io"/>
     <link rel="self" href="https://wildcatuuu.github.io/atom.xml"/>
@@ -10,6 +10,49 @@
     <logo>https://wildcatuuu.github.io/images/avatar.png</logo>
     <icon>https://wildcatuuu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Wildcatuuu</rights>
+    <entry>
+        <title type="html"><![CDATA[SEO优化]]></title>
+        <id>https://wildcatuuu.github.io/post/seo-you-hua/</id>
+        <link href="https://wildcatuuu.github.io/post/seo-you-hua/">
+        </link>
+        <updated>2020-04-13T14:15:52.000Z</updated>
+        <content type="html"><![CDATA[<meta charset="utf-8" /> // 字符编码
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> // 兼容适配
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> // 设备适配
+<meta name="description" content="前端技术博客，关注代码的点点滴滴" /> // 简介
+<meta name="generator" content="Ghost 0.78" /> // 生产工具
+<meta name="author" content="韩小平" /> // 作者
+<meta name="robots" content="index,follow" /> // 搜索优化，下同
+<meta name="google" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="verify" content="index,follow" />
+<meta name="apple-mobile-web-app-capable" content="yes" /> // webapp全屏
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /> // apple状态栏颜色
+<meta name="format-detection" content="telephone=no, email=no" /> // 禁止电话邮件自动识别
+<meta name="HandheldFriendly" content="true" /> // 移动设备优化，针对不支持viewpoint设备
+<meta name="MobileOptimized" content="320" /> // 微软旧浏览器适配
+<title>{{meta_title}} - 韩小平的前端博客</title> // title
+<meta charset="utf-8" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+<meta name="description" content="No scripts, no cue cards. It isn't always Shakespeare, but it's genuine. It's a life" /> 
+<meta name="generator" content="Ghost 0.78" /> 
+<meta name="author" content="Wildcatuuu" /> 
+<meta name="robots" content="index,follow" /> 
+<meta name="google" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="verify" content="index,follow" />
+<meta name="apple-mobile-web-app-capable" content="yes" /> 
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" /> 
+<meta name="format-detection" content="telephone=no, email=no" /> 
+<meta name="HandheldFriendly" content="true" /> 
+<meta name="MobileOptimized" content="320" /> 
+<title>{{meta_title}} - Wildcatuuu</title> 
+<meta name="google" content="notranslate"  />
+<meta name="keywords" content="wildcatuuu tags,search engine optimization"  />
+<meta name="keywords" content="SEO, 百度, 谷歌, 搜索引擎, 排名提升, 网站优化, wildcatuuu">
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[UNDEFEATED 球鞋主题填色书]]></title>
         <id>https://wildcatuuu.github.io/post/undefeated-qiu-xie-zhu-ti-tian-se-shu/</id>
