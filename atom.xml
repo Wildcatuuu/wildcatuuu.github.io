@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wildcatuuu.github.io</id>
     <title>Wildcatuuu</title>
-    <updated>2020-04-13T16:08:21.336Z</updated>
+    <updated>2020-04-13T16:09:06.855Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wildcatuuu.github.io"/>
     <link rel="self" href="https://wildcatuuu.github.io/atom.xml"/>
@@ -15,7 +15,7 @@
         <id>https://wildcatuuu.github.io/post/seo-you-hua/</id>
         <link href="https://wildcatuuu.github.io/post/seo-you-hua/">
         </link>
-        <updated>2020-04-13T14:15:52.000Z</updated>
+        <updated>2020-04-13T16:08:00.000Z</updated>
         <content type="html"><![CDATA[<p><strong>什么是meta标签</strong><br>
 根据w3c定义，meta元素是可提供有关页面的元信息（meta-information），比如针对搜索引擎和更新频度的描述和关键词。 meta标签位于文档的头部，不包含任何内容。标签的属性定义了与文档相关联的名称/值对。 简单来说，meta标签是给搜索引擎看的标签，对于seo有着举足轻重的作用。</p>
 <p><strong>常用的meta标签</strong></p>
