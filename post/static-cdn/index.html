@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <title>Wildcatuuu</title>
@@ -38,7 +38,7 @@
 
 </head>
 <body>
-<div id="fh5co-offcanvas">
+    <div id="fh5co-offcanvas">
     <a href="#!" class="fh5co-close-offcanvas js-fh5co-close-offcanvas">
         <span><i class="icon-cross3"></i> <span>Close</span></span>
     </a>
@@ -160,49 +160,136 @@
 </header>
 
 
-<div class="container-fluid">
+    <!--  <a href="#" class="fh5co-post-prev"><span>👈 Prev</span></a>-->
+    <!--  <a href="#" class="fh5co-post-next"><span>Next 👉</span></a>-->
 
-  <div class="col-lg-12 col-md-12 text-center tag-title">
-      <i class="fa fa-tag"></i> 标签: <h3>Food Science</h3>
-  </div>
-
-  <div class="row fh5co-post-entry">
-
+    <!-- 等gridea出自定义页面功能再优化一下 -->
     
-      <article class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-xxs-12 animate-box article-box" style="height: 25em;">
-        <figure class="img-box">
-          <a href="http://localhost:4000/post/zhuan-jia-jie-du-lesslessshi-pin-an-quan-fa-shi-shi-tiao-li-greatergreater-xin-nei-rong-xin-liang-dian-zhi-du-jie-zhi/">
-            
-              <img data-original="https://gitee.com/wildcatuuu/Blog-Gallery/raw/master/img/食品安全法实施条例 cover.webp" alt="专家解读《食品安全法实施条例》新内容、新亮点、制度价值" class="img-responsive img-rounded lazy">
-            
-          </a>
-        </figure>
-        <span class="fh5co-meta">
-          
-            <div class="tag-container">
-              
-                <a href="http://localhost:4000/tag/Mx1s6rJdZ/" class="tag">Food Science, </a>
-              
+        <div class="container-fluid">
+    <div class="row fh5co-post-entry single-entry">
+        <article class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12 col-xs-offset-0">
+            <figure class="animate-box">
+                
+            </figure>
+            <span class="fh5co-meta animate-box">
+                
+            </span>
+            <h2 class="fh5co-article-title animate-box">Static CDN</h2>
+            <ol class="breadcrumb fh5co-meta fh5co-date animate-box" style="margin-bottom:0; background-color:#f8f9fa">
+                <li>2020-04-27</li>
+                <li>301字</li>
+                <li>2 min read</li>
+            </ol>
+
+            <div class="col-lg-12 col-lg-offset-0 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-left content-article">
+                <div class="row">
+                    <div class="col-md-12 animate-box post-content">
+                        <p> <p>Google Fonts 反代</p>
+<pre><code>- 将 fonts.googleapis.com
+- 替换为 cdn.staticdn.net
+- 例如将：
+- https://fonts.googleapis.com/css?family=Unica+One&amp;display=swap
+- 替换为：
+- https://cdn.staticdn.net/css?family=Unica+One&amp;display=swap
+</code></pre>
+<p>CDNJS 反代</p>
+<pre><code>- 将 cdnjs.cloudflare.com
+- 替换为 cdn.staticdn.net
+- 例如将：
+- https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js
+- 替换为：
+- https://cdn.staticdn.net/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js
+</code></pre>
+<p>Google Libraries 反代</p>
+<pre><code>- 将 ajax.googleapis.com/ajax
+- 替换为 cdn.staticdn.net/gajax
+- 例如将：
+- https://ajax.googleapis.com/ajax/libs/d3js/5.7.0/d3.min.js
+- 替换为：
+- https://cdn.staticdn.net/gajax/libs/d3js/5.7.0/d3.min.js
+</code></pre>
+<p>Gravatar 反代</p>
+<pre><code>- 将 *.gravatar.com
+- 替换为 cdn.staticdn.net
+- 例如将：
+- https://en.gravatar.com/avatar/767fc9c115a1b989744c755db47feb60
+- 替换为：
+- https://cdn.staticdn.net/avatar/767fc9c115a1b989744c755db47feb60
+</code></pre>
+<p>Github RAW 反代</p>
+<pre><code>- 将 raw.githubusercontent.com
+- 替换为 raw.staticdn.net
+- 例如将：
+- https://raw.githubusercontent.com/openrepos/instant-page/master/instant-page.js
+- 替换为：
+- https://raw.staticdn.net/openrepos/instant-page/master/instant-page.js
+</code></pre>
+<p>Skynet 反代</p>
+<pre><code>- 访问 cdn.staticdn.net/[skylink] 即可
+- 例如：
+- https://cdn.staticdn.net/HADGxS7vBvDwxgEWXqOAUQZEDE3ZTAADaFPs-PDlVuRPNw
+</code></pre>
+<p>Imgur 反代</p>
+<pre><code>- 将 i.imgur.com
+- 替换为 cdn.staticdn.net
+- 例如将：
+- https://i.imgur.com/2VQZKnu.jpg
+- 替换为：
+- https://cdn.staticdn.net/2VQZKnu.jpg
+</code></pre>
+<p>SM.MS 图床反代</p>
+<pre><code>将 i.loli.net
+替换为 cdn.staticdn.net
+例如将：
+https://i.loli.net/2019/12/18/K4SQRhpLN78Ml2j.png
+替换为：
+https://cdn.staticdn.net/2019/12/18/K4SQRhpLN78Ml2j.png
+</code></pre>
+ </p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 animate-box">
+                        
+                            <div class="next-post">
+                                <div class="next">下一篇</div>
+                                <a href="http://localhost:4000/post/zhuan-jia-jie-du-lesslessshi-pin-an-quan-fa-shi-shi-tiao-li-greatergreater-xin-nei-rong-xin-liang-dian-zhi-du-jie-zhi/">
+                                    <h3 class="post-title">
+                                        专家解读《食品安全法实施条例》新内容、新亮点、制度价值
+                                    </h3>
+                                </a>
+                            </div>
+                        
+                    </div>
+                </div>
+
+                <div class="row">
+    <div class="col-md-12 animate-box">
+        
+    </div>
+</div>
+
             </div>
-          
-        </span>
-        <h3 class="fh5co-article-title">
-          <a href="http://localhost:4000/post/zhuan-jia-jie-du-lesslessshi-pin-an-quan-fa-shi-shi-tiao-li-greatergreater-xin-nei-rong-xin-liang-dian-zhi-du-jie-zhi/">专家解读《食品安全法实施条例》新内容、新亮点、制度价值</a>
-        </h3>
-        <span class="fh5co-meta fh5co-date">2020-04-25</span>
-      </article>
-    
-    <div class="clearfix visible-lg-block visible-md-block visible-sm-block visible-xs-block"></div>
 
-  </div>
+        </article>
+    </div>
+</div>
 
-  <div class="pagination-box animate-box">
     
+
+    <!-- 返回顶部 -->
+    <div class="back-to-top">
     
-  </div>
+    <a href="#top" class="hidden-xs hidden-sm"><i class="fa fa-paper-plane"></i></a>
+</div>
+
+<div class="post-toc animated fadeInRight hidden-xs hidden-sm" style="display: none;">
+    
 </div>
 
 
+    
 <footer id="fh5co-footer">
   <p>Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
 </footer>
@@ -213,7 +300,7 @@
 <script src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
 
 
-<!-- jQuery -->
+    <!-- jQuery -->
 <script src="http://localhost:4000/media/scripts/jquery.min.js"></script>
 <!-- img lazy load -->
 <script src="http://localhost:4000/media/scripts/jquery.lazyload.min.js"></script>
