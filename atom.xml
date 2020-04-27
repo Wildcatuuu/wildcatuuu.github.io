@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://localhost:4000</id>
+    <id>https://wildcatuuu.github.io</id>
     <title>Wildcatuuu</title>
-    <updated>2020-04-27T04:55:42.312Z</updated>
+    <updated>2020-04-27T04:56:33.451Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="http://localhost:4000"/>
-    <link rel="self" href="http://localhost:4000/atom.xml"/>
+    <link rel="alternate" href="https://wildcatuuu.github.io"/>
+    <link rel="self" href="https://wildcatuuu.github.io/atom.xml"/>
     <subtitle>No scripts, no cue cards. It isn&apos;t always Shakespeare, but it&apos;s genuine. It&apos;s a life</subtitle>
-    <logo>http://localhost:4000/images/avatar.png</logo>
-    <icon>http://localhost:4000/favicon.ico</icon>
+    <logo>https://wildcatuuu.github.io/images/avatar.png</logo>
+    <icon>https://wildcatuuu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Wildcatuuu</rights>
     <entry>
         <title type="html"><![CDATA[Static CDN]]></title>
-        <id>http://localhost:4000/post/static-cdn/</id>
-        <link href="http://localhost:4000/post/static-cdn/">
+        <id>https://wildcatuuu.github.io/post/static-cdn/</id>
+        <link href="https://wildcatuuu.github.io/post/static-cdn/">
         </link>
         <updated>2020-04-27T04:02:10.000Z</updated>
         <content type="html"><![CDATA[<p>Google Fonts 反代</p>
@@ -70,19 +70,19 @@
 - https://cdn.staticdn.net/2VQZKnu.jpg
 </code></pre>
 <p>SM.MS 图床反代</p>
-<pre><code>将 i.loli.net
-替换为 cdn.staticdn.net
-例如将：
-https://i.loli.net/2019/12/18/K4SQRhpLN78Ml2j.png
-替换为：
-https://cdn.staticdn.net/2019/12/18/K4SQRhpLN78Ml2j.png
+<pre><code>- 将 i.loli.net
+- 替换为 cdn.staticdn.net
+- 例如将：
+- https://i.loli.net/2019/12/18/K4SQRhpLN78Ml2j.png
+- 替换为：
+- https://cdn.staticdn.net/2019/12/18/K4SQRhpLN78Ml2j.png
 </code></pre>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[专家解读《食品安全法实施条例》新内容、新亮点、制度价值]]></title>
-        <id>http://localhost:4000/post/zhuan-jia-jie-du-lesslessshi-pin-an-quan-fa-shi-shi-tiao-li-greatergreater-xin-nei-rong-xin-liang-dian-zhi-du-jie-zhi/</id>
-        <link href="http://localhost:4000/post/zhuan-jia-jie-du-lesslessshi-pin-an-quan-fa-shi-shi-tiao-li-greatergreater-xin-nei-rong-xin-liang-dian-zhi-du-jie-zhi/">
+        <id>https://wildcatuuu.github.io/post/zhuan-jia-jie-du-lesslessshi-pin-an-quan-fa-shi-shi-tiao-li-greatergreater-xin-nei-rong-xin-liang-dian-zhi-du-jie-zhi/</id>
+        <link href="https://wildcatuuu.github.io/post/zhuan-jia-jie-du-lesslessshi-pin-an-quan-fa-shi-shi-tiao-li-greatergreater-xin-nei-rong-xin-liang-dian-zhi-du-jie-zhi/">
         </link>
         <updated>2020-04-25T10:46:26.000Z</updated>
         <content type="html"><![CDATA[<p>一部好的法律，最重要的价值在于它所确立的制度具有合理性和科学性，更在于这种制度的可执行性和效益性，也就是亚里士多德提出的“良法善治”。《食品安全法实施条例》（以下简称《条例》）为解决我国食品安全问题奠定了良法善治的基石。从制度内涵、可执行性及效果预期的角度，全面把握《条例》的内容实质，对于深入理解《条例》，执行好《条例》具有重要意义。</p>
@@ -131,8 +131,8 @@ https://cdn.staticdn.net/2019/12/18/K4SQRhpLN78Ml2j.png
     </entry>
     <entry>
         <title type="html"><![CDATA[素菜丸墨西哥蛋饼]]></title>
-        <id>http://localhost:4000/post/su-cai-wan-mo-xi-ge-dan-bing/</id>
-        <link href="http://localhost:4000/post/su-cai-wan-mo-xi-ge-dan-bing/">
+        <id>https://wildcatuuu.github.io/post/su-cai-wan-mo-xi-ge-dan-bing/</id>
+        <link href="https://wildcatuuu.github.io/post/su-cai-wan-mo-xi-ge-dan-bing/">
         </link>
         <updated>2020-04-23T18:56:41.000Z</updated>
         <content type="html"><![CDATA[<p>这道菜式集多种滋味于一身，黑麦面包配上美味酱汁，滋味不言而喻。</p>
@@ -161,8 +161,8 @@ https://cdn.staticdn.net/2019/12/18/K4SQRhpLN78Ml2j.png
     </entry>
     <entry>
         <title type="html"><![CDATA[黄豆鹰嘴豆蓉配泡菜油]]></title>
-        <id>http://localhost:4000/post/huang-dou-ying-zui-dou-rong-pei-pao-cai-you/</id>
-        <link href="http://localhost:4000/post/huang-dou-ying-zui-dou-rong-pei-pao-cai-you/">
+        <id>https://wildcatuuu.github.io/post/huang-dou-ying-zui-dou-rong-pei-pao-cai-you/</id>
+        <link href="https://wildcatuuu.github.io/post/huang-dou-ying-zui-dou-rong-pei-pao-cai-you/">
         </link>
         <updated>2020-04-23T17:10:47.000Z</updated>
         <content type="html"><![CDATA[<p>份量：四至六人</p>
@@ -204,8 +204,8 @@ https://cdn.staticdn.net/2019/12/18/K4SQRhpLN78Ml2j.png
     </entry>
     <entry>
         <title type="html"><![CDATA[公司适合做哪个体系的认证指南]]></title>
-        <id>http://localhost:4000/post/gong-si-gua-he-zuo-na-ge-ti-xi-de-ren-zheng-zhi-nan/</id>
-        <link href="http://localhost:4000/post/gong-si-gua-he-zuo-na-ge-ti-xi-de-ren-zheng-zhi-nan/">
+        <id>https://wildcatuuu.github.io/post/gong-si-gua-he-zuo-na-ge-ti-xi-de-ren-zheng-zhi-nan/</id>
+        <link href="https://wildcatuuu.github.io/post/gong-si-gua-he-zuo-na-ge-ti-xi-de-ren-zheng-zhi-nan/">
         </link>
         <updated>2020-04-21T13:19:53.000Z</updated>
         <content type="html"><![CDATA[<h2 id="iso9001质量管理体系"><strong>ISO9001质量管理体系</strong></h2>
@@ -324,8 +324,8 @@ https://cdn.staticdn.net/2019/12/18/K4SQRhpLN78Ml2j.png
     </entry>
     <entry>
         <title type="html"><![CDATA[SEO - Meta标签优化 ]]></title>
-        <id>http://localhost:4000/post/seo-you-hua/</id>
-        <link href="http://localhost:4000/post/seo-you-hua/">
+        <id>https://wildcatuuu.github.io/post/seo-you-hua/</id>
+        <link href="https://wildcatuuu.github.io/post/seo-you-hua/">
         </link>
         <updated>2020-04-13T16:08:00.000Z</updated>
         <content type="html"><![CDATA[<p><strong>什么是meta标签</strong><br>
@@ -352,8 +352,8 @@ class="hljs-string">"black-translucent"</span> /&gt;</span> // apple状态栏颜
     </entry>
     <entry>
         <title type="html"><![CDATA[UNDEFEATED 球鞋主题填色书]]></title>
-        <id>http://localhost:4000/post/undefeated-qiu-xie-zhu-ti-tian-se-shu/</id>
-        <link href="http://localhost:4000/post/undefeated-qiu-xie-zhu-ti-tian-se-shu/">
+        <id>https://wildcatuuu.github.io/post/undefeated-qiu-xie-zhu-ti-tian-se-shu/</id>
+        <link href="https://wildcatuuu.github.io/post/undefeated-qiu-xie-zhu-ti-tian-se-shu/">
         </link>
         <updated>2020-04-12T16:01:46.000Z</updated>
         <content type="html"><![CDATA[<p><strong>填色书是一种非常好的缓解压力途径，最近便有不少艺术家和美术馆推出可以免费下载的填色书，而知名街头品牌 UNDEFEATED 也別出心裁地带来一个球鞋主题的填色书供大家选择。</strong><br>
@@ -365,8 +365,8 @@ class="hljs-string">"black-translucent"</span> /&gt;</span> // apple状态栏颜
     </entry>
     <entry>
         <title type="html"><![CDATA[为Gridea主题添加看板娘]]></title>
-        <id>http://localhost:4000/post/wei-gridea-zhu-ti-tian-jia-kan-ban-niang/</id>
-        <link href="http://localhost:4000/post/wei-gridea-zhu-ti-tian-jia-kan-ban-niang/">
+        <id>https://wildcatuuu.github.io/post/wei-gridea-zhu-ti-tian-jia-kan-ban-niang/</id>
+        <link href="https://wildcatuuu.github.io/post/wei-gridea-zhu-ti-tian-jia-kan-ban-niang/">
         </link>
         <updated>2020-04-06T04:47:20.000Z</updated>
         <content type="html"><![CDATA[<p>Add Live2D for Gridea theme</p>
@@ -414,8 +414,8 @@ class="hljs-string">"black-translucent"</span> /&gt;</span> // apple状态栏颜
     </entry>
     <entry>
         <title type="html"><![CDATA[资源导航]]></title>
-        <id>http://localhost:4000/post/zi-yuan-dao-hang/</id>
-        <link href="http://localhost:4000/post/zi-yuan-dao-hang/">
+        <id>https://wildcatuuu.github.io/post/zi-yuan-dao-hang/</id>
+        <link href="https://wildcatuuu.github.io/post/zi-yuan-dao-hang/">
         </link>
         <updated>2020-04-02T16:53:10.000Z</updated>
         <content type="html"><![CDATA[<p><a href="https://www.lanzous.com/b00tcw1za">软件</a></p>
@@ -424,8 +424,8 @@ class="hljs-string">"black-translucent"</span> /&gt;</span> // apple状态栏颜
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://localhost:4000/post/hello-gridea/</id>
-        <link href="http://localhost:4000/post/hello-gridea/">
+        <id>https://wildcatuuu.github.io/post/hello-gridea/</id>
+        <link href="https://wildcatuuu.github.io/post/hello-gridea/">
         </link>
         <updated>2019-12-31T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
