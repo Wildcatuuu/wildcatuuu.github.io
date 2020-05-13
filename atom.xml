@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wildcatuuu.github.io</id>
     <title>Wildcatuuu</title>
-    <updated>2020-04-29T19:13:42.307Z</updated>
+    <updated>2020-05-13T14:56:59.947Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wildcatuuu.github.io"/>
     <link rel="self" href="https://wildcatuuu.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://wildcatuuu.github.io/images/avatar.png</logo>
     <icon>https://wildcatuuu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Wildcatuuu</rights>
+    <entry>
+        <title type="html"><![CDATA[Don't ̶F̶o̶r̶g̶e̶t̶ ̶T̶o̶ Smile!]]></title>
+        <id>https://wildcatuuu.github.io/post/dont-forget-to-smile/</id>
+        <link href="https://wildcatuuu.github.io/post/dont-forget-to-smile/">
+        </link>
+        <updated>2020-05-13T14:51:37.000Z</updated>
+        <content type="html"><![CDATA[<p><em>I used to think that my life was a tragedy, but now I realize, it’s a f**king comedy.</em></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Markdown 简明语法笔记]]></title>
         <id>https://wildcatuuu.github.io/post/markdown-jian-ming-yu-fa-bi-ji/</id>
@@ -448,16 +457,6 @@ class="hljs-string">"black-translucent"</span> /&gt;</span> // apple状态栏颜
 <h2 id="live2d自定义">Live2D自定义</h2>
 <p>在<code>waifu-tips.json</code>和<code>waifu-tips.js</code>中可以自定义看板娘的文字内容，按需更改。</p>
 <p>本文转载于<a href="https://wherelse.cc/post/add-live2d-in-the-gridea-theme/">wherelse Blog</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[资源导航]]></title>
-        <id>https://wildcatuuu.github.io/post/zi-yuan-dao-hang/</id>
-        <link href="https://wildcatuuu.github.io/post/zi-yuan-dao-hang/">
-        </link>
-        <updated>2020-04-02T16:53:10.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="https://www.lanzous.com/b00tcw1za">软件</a></p>
-<p><a href="https://cowtransfer.com">奶牛快传</a></p>
 ]]></content>
     </entry>
 </feed>
